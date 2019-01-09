@@ -1,3 +1,5 @@
+This fork updates the version numbers on glium and sdl2.
+
 # glium_sdl2
 
 [![Build Status](https://travis-ci.org/nukep/glium-sdl2.svg)](https://travis-ci.org/nukep/glium-sdl2)
@@ -11,9 +13,9 @@ are in heavy development and are subject to change.
 
 ```toml
 [dependencies]
-glium_sdl2 = "0.15"
-sdl2 = "0.30"
-glium = "0.18"
+glium_sdl2 = { git = "https://github.com/rtavenner/glium-sdl2.git" }
+sdl2 = "0.32.1"
+glium = "0.23"
 
 features = []
 default-features = false
